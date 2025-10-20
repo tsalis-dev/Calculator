@@ -40,10 +40,10 @@
 
 ```bash
 # 1. Clone this repository
-git clone [https://github.com/tsalis-dev/your-calculator-repo-name.git](https://github.com/tsalis-dev/your-calculator-repo-name.git)
+git clone [https://github.com/tsalis-dev/Calculator.git](https://github.com/tsalis-dev/Calculator.git)
 
 # 2. Navigate to the project directory
-cd your-calculator-repo-name
+cd Calculator.git
 
 # 3. Open the index.html file in your browser
 start index.html
