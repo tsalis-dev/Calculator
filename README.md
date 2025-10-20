@@ -7,7 +7,7 @@
 </p>
 
 <h3 align="center">
-  <a href="https://tsalis-dev.github.io/your-calculator-repo-name/">🚀 Live Demo 🚀</a>
+  <a href="https://tsalis-dev.github.io/Calculator/">🚀 Live Demo 🚀</a>
 </h3>
 
 <p align="center">
