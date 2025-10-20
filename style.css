@@ -1,0 +1,83 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.kalkulator {
+    width: 320px;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.display {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.display h1 {
+    font-size: 2.5em;
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.tombol {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #666;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+.operator {
+    background-color: #ff9500; 
+}
+
+.operator:hover {
+    background-color: #fca524;
+}
+
+#tombol-samadengan {
+    background-color: #4cd964; 
+    grid-row: span 2;
+}
+
+#tombol-samadengan:hover {
+    background-color: #5de473;
+}
+
+#tombol-nol {
+    grid-column: span 3; 
+}
+
+#tombol-plus {
+    grid-row: span 2;
+}
